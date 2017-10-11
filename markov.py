@@ -55,7 +55,7 @@ def make_chains(text_string):
         value = words_list[i + 2]
 
         chains[key] = chains.get(key, [])
-        #append the value to the values list at keys
+        #append the value to values the list at keys
         chains[key].append(value)
 
     return chains
